@@ -1,5 +1,6 @@
 1. 深度克隆
-    `function deepClone(obj){
+    ```js
+    function deepClone(obj){
       var tem,whats = function(v){
         return Object.prototype.toString.call(v).slice(8,-1);
       };
@@ -19,5 +20,6 @@
         }
       }
       return tem;
-    }`
+    }
+    ```
 2. 
